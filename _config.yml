@@ -87,8 +87,9 @@ author:
 #       icon: "fab fa-fw fa-instagram"
 #       url: "https://instagram.com/"
 
+# --- Defaults for different content types ---
 defaults:
-  # _posts
+  # posts (not really used for a portfolio, but keeping default)
   - scope:
       path: ""
       type: posts
@@ -99,7 +100,8 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+
+  # pages (_pages folder)
   - scope:
       path: "_pages"
       type: pages
@@ -107,9 +109,24 @@ defaults:
       layout: single
       author_profile: true
 
+  # projects (_projects collection)
+  - scope:
+      path: "_projects"
+      type: projects
+    values:
+      layout: single
+      author_profile: false   # usually you don't need author info on each project
+      read_time: false
+      comments: false
+      share: false
+      related: false
+
+# --- Collection archive settings ---
 category_archive:
   type: liquid
   path: /categories/
+
 tag_archive:
   type: liquid
   path: /tags/
+
