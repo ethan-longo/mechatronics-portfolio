@@ -1,132 +1,203 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# # Welcome to Jekyll!
+# #
+# # This config file is meant for settings that affect your whole blog, values
+# # which you are expected to set up once and rarely edit after that. If you find
+# # yourself editing this file very often, consider using Jekyll's data files
+# # feature for the data you need to update frequently.
+# #
+# # For technical reasons, this file is *NOT* reloaded automatically when you use
+# # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# # Site settings
+# # These are used to personalize your new site. If you look in the HTML files,
+# # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# # You can create any custom variable you would like, and they will be accessible
+# # in the templates via {{ site.myvariable }}.
+# title: Ethan Longo
+# email:
+# description: >- # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+# twitter_username: username
+# github_username: username
+# minimal_mistakes_skin: default
+# search: true
+
+# # Build settings
+# markdown: kramdown
+# remote_theme: mmistakes/minimal-mistakes
+# # Outputting
+# permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+# timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# include:
+#   - _pages
+
+# # Exclude from processing.
+# # The following items will not be processed, by default. Create a custom list
+# # to override the default setting.
+# # exclude:
+# #   - Gemfile
+# #   - Gemfile.lock
+# #   - node_modules
+# #   - vendor/bundle/
+# #   - vendor/cache/
+# #   - vendor/gems/
+# #   - vendor/ruby/
+
+# # Plugins (previously gems:)
+# plugins:
+#   - jekyll-paginate
+#   - jekyll-sitemap
+#   - jekyll-gist
+#   - jekyll-feed
+#   - jemoji
+#   - jekyll-include-cache
+
+# author:
+#   name   : "Ethan Longo"
+#   avatar : "/assets/images/bio-photo.jpg"
+#   bio    : "Hi there, I'm Ethan I am a mechatronics engineer passionate about automation and optimizing workflows, thank you for taking the time to look at some of my projects."
+# #   links:
+# #     - label: "Website"
+# #       icon: "fas fa-fw fa-link"
+# #       url: "https://"
+# #     - label: "Twitter"
+# #       icon: "fab fa-fw fa-twitter-square"
+# #       url: "https://twitter.com/"
+# #     - label: "GitHub"
+# #       icon: "fab fa-fw fa-github"
+# #       url: "https://github.com/"
+# #     - label: "Instagram"
+# #       icon: "fab fa-fw fa-instagram"
+# #       url: "https://instagram.com/"
+
+# # footer:
+# #   links:
+# #     - label: "Twitter"
+# #       icon: "fab fa-fw fa-twitter-square"
+# #       url: "https://twitter.com/"
+# #     - label: "GitHub"
+# #       icon: "fab fa-fw fa-github"
+# #       url: "https://github.com/"
+# #     - label: "Instagram"
+# #       icon: "fab fa-fw fa-instagram"
+# #       url: "https://instagram.com/"
+
+# # --- Defaults for different content types ---
+# defaults:
+#   # posts (not really used for a portfolio, but keeping default)
+#   - scope:
+#       path: ""
+#       type: posts
+#     values:
+#       layout: single
+#       author_profile: true
+#       read_time: true
+#       comments: true
+#       share: true
+#       related: true
+
+#   # pages (_pages folder)
+#   - scope:
+#       path: "_pages"
+#       type: pages
+#     values:
+#       layout: single
+#       author_profile: true
+
+#   # projects (_projects collection)
+#   - scope:
+#       path: "_projects"
+#       type: projects
+#     values:
+#       layout: single
+#       author_profile: false   # usually you don't need author info on each project
+#       read_time: false
+#       comments: false
+#       share: false
+#       related: false
+
+# # --- Collection archive settings ---
+# category_archive:
+#   type: liquid
+#   path: /categories/
+
+# tag_archive:
+#   type: liquid
+#   path: /tags/
+
+
+
+# ---------------------------------------
+# Minimal Mistakes Portfolio Config
+# ---------------------------------------
+
 title: Ethan Longo
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
-search: true
+description: Mechatronics Engineering Portfolio
+name: Ethan Longo
 
-# Build settings
-markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+minimal_mistakes_skin: default
 
-include:
-  - _pages
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
+# ---------------------------------------
+# Markdown and build
+# ---------------------------------------
+markdown: kramdown
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
 
-author:
-  name   : "Ethan Longo"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Hi there, I'm Ethan I am a mechatronics engineer passionate about automation and optimizing workflows, thank you for taking the time to look at some of my projects."
-#   links:
-#     - label: "Website"
-#       icon: "fas fa-fw fa-link"
-#       url: "https://"
-#     - label: "Twitter"
-#       icon: "fab fa-fw fa-twitter-square"
-#       url: "https://twitter.com/"
-#     - label: "GitHub"
-#       icon: "fab fa-fw fa-github"
-#       url: "https://github.com/"
-#     - label: "Instagram"
-#       icon: "fab fa-fw fa-instagram"
-#       url: "https://instagram.com/"
+# ---------------------------------------
+# Collections
+# ---------------------------------------
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
 
-# footer:
-#   links:
-#     - label: "Twitter"
-#       icon: "fab fa-fw fa-twitter-square"
-#       url: "https://twitter.com/"
-#     - label: "GitHub"
-#       icon: "fab fa-fw fa-github"
-#       url: "https://github.com/"
-#     - label: "Instagram"
-#       icon: "fab fa-fw fa-instagram"
-#       url: "https://instagram.com/"
-
-# --- Defaults for different content types ---
+# ---------------------------------------
+# Defaults for content types
+# ---------------------------------------
 defaults:
-  # posts (not really used for a portfolio, but keeping default)
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-
-  # pages (_pages folder)
+  # Pages (_pages folder)
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false   # hide sidebar
 
-  # projects (_projects collection)
+  # Projects (_projects folder)
   - scope:
       path: "_projects"
       type: projects
     values:
       layout: single
-      author_profile: false   # usually you don't need author info on each project
+      author_profile: false
       read_time: false
       comments: false
       share: false
       related: false
 
-# --- Collection archive settings ---
-category_archive:
-  type: liquid
-  path: /categories/
+# Posts: disabled
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: null
 
-tag_archive:
-  type: liquid
-  path: /tags/
+# ---------------------------------------
+# Navigation
+# ---------------------------------------
+nav: []   # empty nav, no headers
+
+# ---------------------------------------
+# Project grid on homepage
+# ---------------------------------------
+projects_list_layout: grid
+
 
