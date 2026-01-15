@@ -1,7 +1,7 @@
 ---
 layout: collection
 collection: projects
-entries_layout: cards  # options: cards, grid, list
+entries_layout: grid  # options: cards, grid, list
 permalink: /
 ---
 
