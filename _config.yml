@@ -136,7 +136,7 @@
 # Minimal Mistakes Portfolio Config
 # ---------------------------------------
 
-title: Ethan Longo
+title: Ethan Longo Portfolio
 description: Mechatronics Engineering Portfolio
 name: Ethan Longo
 
@@ -182,13 +182,6 @@ defaults:
       comments: false
       share: false
       related: false
-
-# Posts: disabled
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: null
 
 # ---------------------------------------
 # Navigation
