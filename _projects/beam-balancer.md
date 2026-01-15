@@ -1,13 +1,13 @@
 ---
 excerpt: Vision-based ball balancing system using PID control
-layout: splash
+layout: project
 title: Beam Balancer
 header:
   overlay_image: /assets/images/bio-photo.jpg
   overlay_filter: 0.4
   caption: "Vision-based ball balancing system"
 ---
-
+<!-- 
 ## Overview
 Designed and built a tabletop robotic system capable of balancing a
 ping-pong ball along a beam using computer vision and closed-loop
@@ -31,4 +31,47 @@ control under strict size constraints.
 ## Outcome
 Successfully achieved stable, responsive ball balancing within tight
 size constraints. The project demonstrated effective integration of
-mechanical design, vision sensing, and control theory.
+mechanical design, vision sensing, and control theory. -->
+
+<div class="project-grid">
+
+  <div class="project-media">
+    <img src="/assets/images/bio-photo.jpg" alt="CAD model">
+    <img src="/assets/images/bio-photo.jpg" alt="Assembled system">
+    <img src="/assets/images/bio-photo.jpg" alt="Vision tracking">
+  </div>
+
+ <div class="project-info">
+    <section>
+      <h3>Overview</h3>
+      <p>
+        Vision-based closed-loop control system for balancing a ping-pong
+        ball along a beam using a single servo motor.
+      </p>
+    </section>
+
+    <section>
+      <h3>What I Did</h3>
+      <ul>
+        <li>Mechanical and linkage design in SolidWorks</li>
+        <li>Kinematic derivation for beam control</li>
+        <li>Vision tracking using HSV thresholding</li>
+        <li>PID tuning for fast, stable convergence</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Tools</h3>
+      <p>SolidWorks, PID control, Computer vision, 3D printing</p>
+    </section>
+
+    <section>
+      <h3>Outcome</h3>
+      <p>
+        Achieved stable, real-time balancing within strict size constraints,
+        demonstrating tight integration of mechanics, sensing, and control.
+      </p>
+    </section>
+  </div>
+
+</div>
