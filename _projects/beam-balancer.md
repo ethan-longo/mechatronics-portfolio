@@ -36,9 +36,9 @@ mechanical design, vision sensing, and control theory. -->
 <div class="project-grid">
 
   <div class="project-media">
-    <img src="/assets/images/bio-photo.jpg" alt="CAD model">
-    <img src="/assets/images/bio-photo.jpg" alt="Assembled system">
-    <img src="/assets/images/bio-photo.jpg" alt="Vision tracking">
+    <img src="/mechatronics-portfolio/assets/images/bio-photo.jpg" alt="CAD model">
+    <img src="/mechatronics-portfolio/assets/images/bio-photo.jpg" alt="CAD model" alt="Assembled system">
+    <img src="/mechatronics-portfolio/assets/images/bio-photo.jpg" alt="CAD model" alt="Vision tracking">
   </div>
 
  <div class="project-info">
