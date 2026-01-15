@@ -1,6 +1,11 @@
 ---
-title: Beam Balancer
 excerpt: Vision-based ball balancing system using PID control
+layout: splash
+title: Beam Balancer
+header:
+  overlay_image: /assets/images/bio-photo.jpg
+  overlay_filter: 0.4
+  caption: "Vision-based ball balancing system"
 ---
 
 ## Overview
