@@ -1,7 +1,8 @@
 ---
-layout: home
-title: Ethan Longo
-projects_list: true
+layout: collection
+collection: projects
+entries_layout: cards  # options: cards, grid, list
+permalink: /
 ---
 
 # Hi, I’m Ethan
