@@ -32,46 +32,47 @@ control under strict size constraints.
 Successfully achieved stable, responsive ball balancing within tight
 size constraints. The project demonstrated effective integration of
 mechanical design, vision sensing, and control theory. -->
+<div class="project-flow">
 
-<div class="project-grid">
-
-  <div class="project-media">
-    <img src="/mechatronics-portfolio/assets/images/bio-photo.jpg" alt="CAD model">
-    <img src="/mechatronics-portfolio/assets/images/bio-photo.jpg" alt="CAD model" alt="Assembled system">
-    <img src="/mechatronics-portfolio/assets/images/bio-photo.jpg" alt="CAD model" alt="Vision tracking">
-  </div>
-
- <div class="project-info">
-    <section>
+  <div class="project-row">
+    <div class="project-image">
+      <img src="mechatronics-portfolio/assets/images/bio-photo.jpg" alt="CAD model">
+    </div>
+    <div class="project-text">
       <h3>Overview</h3>
       <p>
         Vision-based closed-loop control system for balancing a ping-pong
         ball along a beam using a single servo motor.
       </p>
-    </section>
+    </div>
+  </div>
 
-    <section>
+  <div class="project-row reverse">
+    <div class="project-image">
+      <img src="mechatronics-portfolio/assets/images/bio-photo.jpg" alt="Assembled system">
+    </div>
+    <div class="project-text">
       <h3>What I Did</h3>
       <ul>
-        <li>Mechanical and linkage design in SolidWorks</li>
-        <li>Kinematic derivation for beam control</li>
-        <li>Vision tracking using HSV thresholding</li>
-        <li>PID tuning for fast, stable convergence</li>
+        <li>Mechanical and linkage design</li>
+        <li>Kinematic derivation</li>
+        <li>Vision-based tracking</li>
+        <li>PID tuning</li>
       </ul>
-    </section>
+    </div>
+  </div>
 
-    <section>
-      <h3>Tools</h3>
-      <p>SolidWorks, PID control, Computer vision, 3D printing</p>
-    </section>
-
-    <section>
+  <div class="project-row">
+    <div class="project-image">
+      <img src="mechatronics-portfolio/assets/images/bio-photo.jpg" alt="Vision tracking">
+    </div>
+    <div class="project-text">
       <h3>Outcome</h3>
       <p>
-        Achieved stable, real-time balancing within strict size constraints,
-        demonstrating tight integration of mechanics, sensing, and control.
+        Achieved stable real-time ball balancing within strict size and
+        actuation constraints.
       </p>
-    </section>
+    </div>
   </div>
 
 </div>
