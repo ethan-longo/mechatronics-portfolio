@@ -27,12 +27,6 @@ header:
         linearized, and evaluated through simulation to understand balance limits
         and instability mechanisms.
       </p>
-      <div class="project-metrics">
-        <span class="project-metric">Inverted pendulum model</span>
-        <span class="project-metric">Open-loop dynamics</span>
-        <span class="project-metric">MATLAB / Simulink</span>
-        <span class="project-metric">SimulationX 3D</span>
-      </div>
     </div>
   </div>
 
