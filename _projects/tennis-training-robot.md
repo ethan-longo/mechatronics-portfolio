@@ -52,17 +52,14 @@ header:
     </div>
 
     <div class="project-image">
-      <img src="{{ '/assets/images/tennis_robot/mechanical_system.png' | relative_url }}"
-           alt="Launcher and conveyor mechanism">
+      <img src="{{ '/assets/images/tennis_robot/photo_grid.png' | relative_url }}"
+           alt="Control and sensor integration diagram">
     </div>
+
   </div>
 
   <!-- Row 3: Technical Focus -->
   <div class="project-row">
-    <div class="project-image">
-      <img src="{{ '/assets/images/tennis_robot/photo_grid.png' | relative_url }}"
-           alt="Control and sensor integration diagram">
-    </div>
 
     <div class="project-text">
       <h3>Technical Focus</h3>

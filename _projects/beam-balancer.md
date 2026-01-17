@@ -36,6 +36,14 @@ header:
         <li>Single-actuator beam control</li>
         <li>Fast, stable closed-loop response</li>
       </ul>
+
+      <div class="project-metrics">
+        <span class="project-metric">Vision-based feedback</span>
+        <span class="project-metric">Single-servo actuation</span>
+        <span class="project-metric">Closed-loop PID<span>
+        <span class="project-metric">200 × 190 × 90 mm<span>
+    </div>
+
     </div>
   </div>
 
