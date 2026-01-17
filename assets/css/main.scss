@@ -4,6 +4,32 @@
 @import "minimal-mistakes";
 
 /* ===============================
+   Landing Page Title
+   =============================== */
+
+.page-title-header {
+  padding: 8rem 1.5rem 4rem;   /* top/bottom spacing */
+  text-align: center;
+  background-color: #fafafa;    /* subtle neutral background */
+}
+
+.page-title {
+  font-size: clamp(3rem, 8vw, 5rem); /* large, responsive */
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 0.5rem;
+  line-height: 1.1;
+}
+
+.page-subtitle {
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  font-weight: 400;
+  color: #555555;
+  margin-top: 0;
+}
+
+
+/* ===============================
    Project Case Study Layout
    Mechatronics Portfolio Styling
    =============================== */

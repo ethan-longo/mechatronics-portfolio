@@ -2,10 +2,10 @@
 excerpt: Vision-based ball balancing system using PID control
 layout: project
 title: Beam Balancer
-header:
-  overlay_image: /assets/images/beam_balancer/beam_balancer_diagram.png
-  overlay_filter: 0.4
-  caption: "Vision-based ball balancing system"
+# header:
+#   overlay_image: /assets/images/beam_balancer/beam_balancer_diagram.png
+#   overlay_filter: 0.4
+#   caption: "Vision-based ball balancing system"
 ---
 
 
