@@ -2,9 +2,9 @@
 title: Tennis Training Robot
 excerpt: Autonomous robot for randomized tennis ball training sessions
 layout: project
-# header:
-#   overlay_image: /assets/images/background.png
-#   overlay_filter: 0.4
+header:
+  overlay_image: /assets/images/tennis_robot/photo_grid.png
+  overlay_filter: 0.75
 ---
 
 <div class="project-flow">

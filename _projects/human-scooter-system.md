@@ -2,9 +2,9 @@
 title: Human Scooter System Modelling
 excerpt: Dynamic modelling and simulation of a two-wheeled transporter
 layout: project
-# header:
-#   overlay_image: /assets/images/background.png
-#   overlay_filter: 0.4
+header:
+  overlay_image: /assets/images/scooter/system_model.png
+  overlay_filter: 0.75
 ---
 
 <div class="project-flow">

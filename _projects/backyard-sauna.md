@@ -2,9 +2,9 @@
 title: Backyard Sauna
 excerpt: End-to-end design and construction of a custom backyard sauna
 layout: project
-# header:
-#   overlay_image: /assets/images/background.png
-#   overlay_filter: 0.4
+header:
+  overlay_image: /assets/images/heater.png
+  overlay_filter: 0.75
 ---
 
 
