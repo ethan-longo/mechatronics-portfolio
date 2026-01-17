@@ -8,7 +8,7 @@ excerpt: Dynamic modelling and simulation of a two-wheeled transporter
   <!-- Row 1: Overview -->
   <div class="project-row">
     <div class="project-image">
-      <img src="/assets/images/scooter/system-model.png" alt="Human scooter system model and dynamics">
+      <img src="{{ '/assets/images/scooter/system-model.png' | relative_url }}" alt="Human scooter system model and dynamics">
     </div>
 
     <div class="project-text">
@@ -40,7 +40,7 @@ excerpt: Dynamic modelling and simulation of a two-wheeled transporter
     </div>
 
     <div class="project-image">
-      <img src="/assets/images/scooter/diagram.png" alt="3D SimulationX scooter model">
+      <img src="{{ '/assets/images/scooter/diagram.png' | relative_url }}" alt="3D SimulationX scooter model">
     </div>
   </div>
 
