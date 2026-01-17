@@ -1,5 +1,5 @@
 ---
-excerpt: Vision-based ball balancing system using PID control
+excerpt: Desing and implementaion of an autonomous beam balancing robot
 layout: project
 title: Beam Balancer
 header:
@@ -26,20 +26,6 @@ header:
         mechanical design, kinematic analysis, computer vision, and PID
         control under strict size constraints.
       </p>
-
-      <p><strong>System Focus:</strong></p>
-      <ul>
-        <li>Vision-based sensing of ball position</li>
-        <li>Single-actuator beam control</li>
-        <li>Fast, stable closed-loop response</li>
-      </ul>
-
-      <div class="project-metrics">
-        <span class="project-metric">Vision-based feedback</span>
-        <span class="project-metric">Single-servo actuation</span>
-        <span class="project-metric">Closed-loop PID</span>
-        <span class="project-metric">200 × 190 × 90 mm</span>
-      </div>
     </div>
   </div>
 
@@ -48,13 +34,13 @@ header:
     <div class="project-text">
       <h3>My Role & Design Constraints</h3>
 
-      <p><strong>My Contributions</strong></p>
+      <p><strong>My Role</strong></p>
       <ul>
         <li>Designed structural frame and linkage system in SolidWorks</li>
         <li>Derived kinematic relationships between servo angle and beam angle</li>
-        <li>Implemented HSV-based computer vision for ball tracking</li>
+        <li>Developed a computer vision system using HSV colour filtering and shape detection for ball tracking</li>
         <li>Tuned PID gains to minimize overshoot and oscillations</li>
-        <li>Participated in assembly, testing, and iteration</li>
+        <li>Contributed to assembly, testing, and iteration</li>
       </ul>
 
       <p><strong>Key Constraints</strong></p>
@@ -62,7 +48,7 @@ header:
         <li><strong>Size:</strong> 200 × 190 × 90 mm operating volume</li>
         <li><strong>Actuation:</strong> Single servo motor</li>
         <li><strong>Stability:</strong> Central beam pivot for symmetric response</li>
-        <li><strong>Manufacturing:</strong> Laser-cut acrylic and 3D-printed parts</li>
+        <li><strong>Manufacturing:</strong> Cost was limited to a maximum of $50</li>
       </ul>
     </div>
 
@@ -74,11 +60,6 @@ header:
 
   <!-- Row 3: Engineering Process + Outcome -->
   <div class="project-row">
-    <div class="project-image">
-      <img src="{{ '/assets/images/beam_balancer/beam_balancer_diagram.png' | relative_url }}"
-           alt="Control and vision diagram">
-    </div>
-
     <div class="project-text">
       <h3>Design & Engineering Process</h3>
 
@@ -103,6 +84,11 @@ header:
         both mechanical alignment and control performance.
       </p>
     </div>
+
+    <div class="project-image">
+      <img src="{{ '/assets/images/beam_balancer/beam_balancer_diagram.png' | relative_url }}"
+           alt="Control and vision diagram">
+    </div>
   </div>
 
 
@@ -118,8 +104,7 @@ header:
     <div class="project-text">
       <h3>Outcome & Skills</h3>
 
-      <p><strong>Outcome:</strong> Stable real-time ball balancing achieved
-        within strict size, actuation, and manufacturing constraints.</p>
+      <p><strong>Outcome:</strong> The final system successfully balanced a ping-pong ball along the beam and demonstrated stable closed-loop performance with minimal overshoot and fast settling time. The project highlighted the importance of the integration between mechanical design, sensing, and control, and provided hands-on experience in translating theoretical concepts into a functioning physical system.</p>
 
       <p><strong>Skills & Tools:</strong><br>
         SolidWorks · Mechanical Design · Kinematic Analysis · PID Control ·
