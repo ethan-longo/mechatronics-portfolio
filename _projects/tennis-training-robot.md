@@ -1,5 +1,5 @@
 ---
-title: Tennis Training Robot
+title: Autonomous Tennis Training Robot
 excerpt: Autonomous robot for randomized tennis ball training sessions
 layout: project
 header:
@@ -17,7 +17,7 @@ header:
     </div>
 
     <div class="project-text">
-      <h3>Tennis Training Robot</h3>
+      <h3>Autonomous Tennis Training Robot</h3>
       <p>
         This project involved the design and construction of a mobile robotic
         system intended as a low-cost alternative to commercial tennis ball
