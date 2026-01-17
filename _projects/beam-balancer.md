@@ -13,10 +13,8 @@ header:
   <!-- Row 1: Overview + Video -->
   <div class="project-row">
     <div class="project-image">
-      <video controls>
-        <source src="{{ '/assets/images/beam_balancer/Video.mov' | relative_url }}" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      <img src="{{'/assets/images/beam_balancer/photo.png' | relative_url }}"
+           alt="Control and vision diagram">
     </div>
 
     <div class="project-text">
@@ -111,8 +109,10 @@ header:
   <!-- Row 3: Engineering Process + Outcome -->
   <div class="project-row">
     <div class="project-image">
-      <img src="{{ '/assets/images/beam_balancer/photo.png' | relative_url }}"
-           alt="Control and vision diagram">
+      <video controls>
+        <source src="{{ '/assets/images/beam_balancer/Video.mov' | relative_url }}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     </div>
 
     <div class="project-text">
