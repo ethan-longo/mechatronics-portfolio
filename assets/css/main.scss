@@ -68,174 +68,174 @@
 
 
 
-// /* ===============================
-//    Project Case Study Layout
-//    Mechatronics Portfolio Styling
-//    =============================== */
+/* ===============================
+   Project Case Study Layout
+   Mechatronics Portfolio Styling
+   =============================== */
 
-// .project-flow {
-//   max-width: 1200px;
-//   margin: 0 auto;
-//   padding: 3.5rem 1.5rem;
-// }
+.project-flow {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem;
+}
 
-// /* ---------- Core Row Layout ---------- */
+/* ---------- Core Row Layout ---------- */
 
-// .project-row {
-//   display: grid;
-//   grid-template-columns: minmax(420px, 1fr) minmax(420px, 1fr);
-//   gap: 4rem;
-//   align-items: center;
-//   margin-bottom: 6.5rem;
-// }
+.project-row {
+  display: grid;
+  grid-template-columns: minmax(420px, 1fr) minmax(420px, 1fr);
+  gap: 4rem;
+  align-items: center;
+  margin-bottom: 6.5rem;
+}
 
-// /* Reverse visual order */
-// .project-row.reverse {
-//   direction: rtl;
-// }
+/* Reverse visual order */
+.project-row.reverse {
+  direction: rtl;
+}
 
-// .project-row.reverse > * {
-//   direction: ltr;
-// }
+.project-row.reverse > * {
+  direction: ltr;
+}
 
-// /* ---------- Image Container ---------- */
+/* ---------- Image Container ---------- */
 
-// .project-image {
-//   min-width: 420px;
-//   min-height: 260px;
-//   background-color: #f5f5f7;
-//   border-radius: 14px;
-//   overflow: hidden;
+.project-image {
+  min-width: 420px;
+  min-height: 260px;
+  background-color: #f5f5f7;
+  border-radius: 14px;
+  overflow: hidden;
 
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-//   box-shadow:
-//     0 10px 30px rgba(0, 0, 0, 0.06);
-// }
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.06);
+}
 
-// /* Image & Video */
-// .project-image img,
-// .project-image video {
-//   width: 100%;
-//   height: auto;
-//   object-fit: cover;
-//   display: block;
-// }
+/* Image & Video */
+.project-image img,
+.project-image video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
 
-// /* Optional caption under image */
-// .project-image::after {
-//   content: attr(data-caption);
-//   display: block;
-//   font-size: 0.85rem;
-//   color: #6e6e73;
-//   margin-top: 0.75rem;
-//   text-align: center;
-// }
+/* Optional caption under image */
+.project-image::after {
+  content: attr(data-caption);
+  display: block;
+  font-size: 0.85rem;
+  color: #6e6e73;
+  margin-top: 0.75rem;
+  text-align: center;
+}
 
-// /* ---------- Text Block ---------- */
+/* ---------- Text Block ---------- */
 
-// .project-text {
-//   font-size: 1.05rem;
-//   line-height: 1.65;
-//   color: #1d1d1f;
-// }
+.project-text {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #1d1d1f;
+}
 
-// .project-text h3 {
-//   font-size: 1.65rem;
-//   font-weight: 600;
-//   margin-bottom: 1rem;
-// }
+.project-text h3 {
+  font-size: 1.65rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
 
-// .project-text p {
-//   margin-bottom: 1.1rem;
-// }
+.project-text p {
+  margin-bottom: 1.1rem;
+}
 
-// .project-text ul {
-//   padding-left: 1.25rem;
-//   margin-top: 0.5rem;
-// }
+.project-text ul {
+  padding-left: 1.25rem;
+  margin-top: 0.5rem;
+}
 
-// .project-text li {
-//   margin-bottom: 0.65rem;
-// }
+.project-text li {
+  margin-bottom: 0.65rem;
+}
 
-// /* ---------- Metrics / Highlights ---------- */
+/* ---------- Metrics / Highlights ---------- */
 
-// .project-metrics {
-//   display: flex;
-//   flex-wrap: wrap;
-//   gap: 1.2rem;
-//   margin-top: 1.2rem;
-// }
+.project-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin-top: 1.2rem;
+}
 
-// .project-metric {
-//   background: #f5f5f7;
-//   padding: 0.6rem 0.9rem;
-//   border-radius: 8px;
-//   font-size: 0.9rem;
-//   color: #1d1d1f;
-//   font-weight: 500;
-// }
+.project-metric {
+  background: #f5f5f7;
+  padding: 0.6rem 0.9rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: #1d1d1f;
+  font-weight: 500;
+}
 
-// /* ---------- Text-Only Rows ---------- */
-// /* Rows without images become editorial */
+/* ---------- Text-Only Rows ---------- */
+/* Rows without images become editorial */
 
-// .project-row:not(:has(.project-image)) {
-//   grid-template-columns: 1fr;
-//   max-width: 900px;
-//   margin-left: auto;
-//   margin-right: auto;
-// }
+.project-row:not(:has(.project-image)) {
+  grid-template-columns: 1fr;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-// /* ---------- Section Divider ---------- */
+/* ---------- Section Divider ---------- */
 
-// .project-row::after {
-//   content: "";
-//   grid-column: 1 / -1;
-//   height: 1px;
-//   background: linear-gradient(
-//     to right,
-//     transparent,
-//     #d2d2d7,
-//     transparent
-//   );
-//   margin-top: 4rem;
-// }
+.project-row::after {
+  content: "";
+  grid-column: 1 / -1;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    #d2d2d7,
+    transparent
+  );
+  margin-top: 4rem;
+}
 
-// /* Remove divider from last row */
-// .project-row:last-child::after {
-//   display: none;
-// }
+/* Remove divider from last row */
+.project-row:last-child::after {
+  display: none;
+}
 
-// /* ---------- Responsive ---------- */
+/* ---------- Responsive ---------- */
 
-// @media (max-width: 900px) {
-//   .project-row {
-//     grid-template-columns: 1fr;
-//     gap: 2.5rem;
-//   }
+@media (max-width: 900px) {
+  .project-row {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
 
-//   .project-image {
-//     min-width: 100%;
-//   }
+  .project-image {
+    min-width: 100%;
+  }
 
-//   .project-flow {
-//     padding: 2.5rem 1.2rem;
-//   }
-// }
+  .project-flow {
+    padding: 2.5rem 1.2rem;
+  }
+}
 
-// /* ---------- Subtle Transitions ---------- */
+/* ---------- Subtle Transitions ---------- */
 
-// .project-image,
-// .project-text {
-//   transition: transform 0.3s ease, opacity 0.3s ease;
-// }
+.project-image,
+.project-text {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
 
-// .project-row:hover .project-image {
-//   transform: translateY(-4px);
-// }
+.project-row:hover .project-image {
+  transform: translateY(-4px);
+}
 
 
 // /* ===============================
@@ -458,7 +458,7 @@
    FEATURED PROJECTS GRID
    =============================== */
 .featured-projects {
-  max-width: 1200px;
+  max-width: 1750px;
   margin: 0 auto 6rem;
   padding: 0 1.5rem;
 }
