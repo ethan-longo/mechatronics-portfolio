@@ -4,32 +4,30 @@
 @import "minimal-mistakes";
 
 /* ===============================
-   Landing Page Big Title
+   Landing Page Title
    =============================== */
 
 .page-title-header {
-  padding: 12rem 1.5rem 6rem;  /* lots of vertical spacing */
+  padding: 8rem 1.5rem 4rem;   /* top/bottom spacing */
   text-align: center;
   background-color: #fafafa;    /* subtle neutral background */
 }
 
 .page-title {
-  font-size: clamp(5rem, 12vw, 8rem); /* huge, responsive title */
+  font-size: clamp(3rem, 8vw, 5rem); /* large, responsive */
   font-weight: 700;
   color: #111111;
-  margin-bottom: 1rem;             /* spacing below the title */
-  line-height: 1.1;                /* slightly tighter line height for big text */
-  letter-spacing: 2px;             /* elegant spacing between letters */
+  margin-bottom: 0.5rem;
+  line-height: 1.1;
 }
 
 .page-subtitle {
-  font-size: clamp(1.5rem, 3vw, 2.25rem); /* slightly bigger subtitle */
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
   font-weight: 400;
   color: #555555;
-  margin-top: 2rem;                /* more breathing room from title */
-  letter-spacing: 1px;
-  line-height: 1.3;
+  margin-top: 0;
 }
+
 
 /* ===============================
    Project Case Study Layout
