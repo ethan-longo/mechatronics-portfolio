@@ -118,7 +118,7 @@ header:
     </div>
 
     <div class="project-image">
-      <img src="{{ '/assets/images/sauna/outside.png.png' | relative_url }}"
+      <img src="{{ '/assets/images/sauna/outside.png' | relative_url }}"
            alt="3D SolidWorks model of sauna structure">
     </div>
   </div>
