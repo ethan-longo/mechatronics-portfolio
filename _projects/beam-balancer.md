@@ -36,7 +36,7 @@ mechanical design, vision sensing, and control theory. -->
 
   <div class="project-row">
     <div class="project-image">
-      <img src="mechatronics-portfolio/assets/images/bio-photo.jpg" alt="CAD model">
+      <img src="/mechatronics-portfolio/assets/images/bio-photo.jpg" alt="CAD model">
     </div>
     <div class="project-text">
       <h3>Overview</h3>
@@ -49,7 +49,7 @@ mechanical design, vision sensing, and control theory. -->
 
   <div class="project-row reverse">
     <div class="project-image">
-      <img src="mechatronics-portfolio/assets/images/bio-photo.jpg" alt="Assembled system">
+      <img src="/mechatronics-portfolio/assets/images/bio-photo.jpg" alt="Assembled system">
     </div>
     <div class="project-text">
       <h3>What I Did</h3>
@@ -64,7 +64,7 @@ mechanical design, vision sensing, and control theory. -->
 
   <div class="project-row">
     <div class="project-image">
-      <img src="mechatronics-portfolio/assets/images/bio-photo.jpg" alt="Vision tracking">
+      <img src="/mechatronics-portfolio/assets/images/bio-photo.jpg" alt="Vision tracking">
     </div>
     <div class="project-text">
       <h3>Outcome</h3>
