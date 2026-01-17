@@ -82,6 +82,10 @@ header:
 
   <!-- Row 4: Design Process (reversed) -->
   <div class="project-row reverse">
+    <div class="project-image">
+      <img src="{{ '/assets/images/sauna/drawing.png' | relative_url }}"
+           alt="2D layout of sauna structure">
+    </div>
     <div class="project-text">
       <h3>Design & Engineering Process</h3>
       <p>
@@ -96,11 +100,6 @@ header:
         <li>6′ × 8′ change room</li>
         <li>6′ × 8′ sauna room</li>
       </ul>
-    </div>
-
-    <div class="project-image">
-      <img src="{{ '/assets/images/sauna/drawing.png' | relative_url }}"
-           alt="2D layout of sauna structure">
     </div>
   </div>
 
