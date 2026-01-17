@@ -45,7 +45,7 @@ header:
 
       <p><strong>Key Constraints</strong></p>
       <ul>
-        <li><strong>Size:</strong> 200 × 190 × 90 mm operating volume</li>
+        <li><strong>Size:</strong> 200 mm × 190 mm × 90mm operating volume</li>
         <li><strong>Actuation:</strong> Single servo motor</li>
         <li><strong>Stability:</strong> Central beam pivot for symmetric response</li>
         <li><strong>Manufacturing:</strong> Cost was limited to a maximum of $50</li>
