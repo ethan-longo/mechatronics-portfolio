@@ -4,7 +4,7 @@ layout: project
 title: Beam Balancer
 header:
   overlay_image: /assets/images/beam_balancer/beam_balancer_diagram.png
-  overlay_filter: 0.75
+  overlay_filter: 0.4
 ---
 
 
