@@ -4,68 +4,68 @@
 @import "minimal-mistakes";
 
 
-// .page__content h2 {
-//   margin-top: 1.2em;
-//   margin-bottom: 0.4em;
-// }
+.page__content h2 {
+  margin-top: 1.2em;
+  margin-bottom: 0.4em;
+}
 
-// .page__content h3 {
-//   margin-top: 0.8em;
-//   margin-bottom: 0.3em;
-// }
+.page__content h3 {
+  margin-top: 0.8em;
+  margin-bottom: 0.3em;
+}
 
-// .page__content p {
-//   margin-bottom: 0.6em;
-// }
+.page__content p {
+  margin-bottom: 0.6em;
+}
 
-// .project-layout {
-//   max-width: 1200px;
-//   margin: 0 auto;
-// }
+.project-layout {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-// .project-grid {
-//   display: grid;
-//   grid-template-columns: 1.6fr 1fr;
-//   gap: 2rem;
-//   margin-top: 3rem;
-// }
+.project-grid {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 2rem;
+  margin-top: 3rem;
+}
 
-// .project-media img {
-//   width: 100%;
-//   border-radius: 10px;
-//   margin-bottom: 1.5rem;
-// }
+.project-media img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
 
-// .project-info section {
-//   background: #f8f8f8;
-//   padding: 1.2rem 1.4rem;
-//   border-radius: 10px;
-//   margin-bottom: 1.2rem;
-// }
+.project-info section {
+  background: #f8f8f8;
+  padding: 1.2rem 1.4rem;
+  border-radius: 10px;
+  margin-bottom: 1.2rem;
+}
 
-// .project-info h3 {
-//   margin-top: 0;
-//   margin-bottom: 0.4rem;
-// }
+.project-info h3 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}
 
-// .project-info ul {
-//   padding-left: 1.1rem;
-//   margin-bottom: 0;
-// }
+.project-info ul {
+  padding-left: 1.1rem;
+  margin-bottom: 0;
+}
 
-// .project-media {
-//   padding: 1rem;
-// }
+.project-media {
+  padding: 1rem;
+}
 
-// @media (max-width: 900px) {
-//   .project-grid {
-//     grid-template-columns: 1fr;
-//   }
+@media (max-width: 900px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
 
-//   .project-media {
-//     order: -1;
-//   }
-// }
+  .project-media {
+    order: -1;
+  }
+}
 
 
 .project-flow {
@@ -99,9 +99,4 @@
 
 .project-text h3 {
   margin-top: 0;
-}
-
-
-body {
-  background: red !important;
 }
