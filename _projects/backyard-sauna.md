@@ -1,6 +1,6 @@
 ---
 title: Backyard Sauna
-excerpt: End-to-end design and construction of a custom backyard sauna
+excerpt: End-to-end design and construction of a custom DIY backyard sauna
 layout: project
 header:
   overlay_image: /assets/images/sauna/heater.png
@@ -21,21 +21,15 @@ header:
       <h3>Backyard Sauna</h3>
       <p>
         This project involved the complete design and construction of a custom
-        backyard sauna, from early concept development through detailed design,
-        material selection, and hands-on construction.
+        DIY backyard sauna, from early concept development through detailed 
+        design, material selection, and hands-on construction.
       </p>
       <p>
-        The goal was to create a compact, efficient, and visually cohesive
+        The goal was to create an efficient, cheap, and visually appealing
         structure that balanced thermal performance, structural integrity, and
-        long-term durability.
+        long-term durability, all while providing a nice place to relax and
+        get a sweat in!
       </p>
-
-      <div class="project-metrics">
-        <span class="project-metric">12′ × 8′ footprint</span>
-        <span class="project-metric">Two-room layout</span>
-        <span class="project-metric">Sloped roof geometry</span>
-        <span class="project-metric">End-to-end ownership</span>
-      </div>
     </div>
   </div>
 
@@ -45,20 +39,13 @@ header:
       <h3>My Role</h3>
       <p>
         I was responsible for the full design and execution of the project,
-        including dimensional planning, performance tradeoffs, material research,
-        and on-site construction.
+        from dimensional planning, performance considerations, material 
+        research, and on-site construction.
       </p>
       <p>
-        Key considerations included heat retention, moisture management,
-        structural stability, and visual integration with the surrounding
-        architecture.
+        Key considerations included balancing thermal efficiency, structural
+        integrity, and visual integration with the surrounding architecture.
       </p>
-
-      <div class="project-metrics">
-        <span class="project-metric">Thermal efficiency driven</span>
-        <span class="project-metric">Structural planning</span>
-        <span class="project-metric">Material selection</span>
-      </div>
     </div>
 
     <div class="project-image">
@@ -90,12 +77,6 @@ header:
           separate change room
         </li>
       </ul>
-
-      <div class="project-metrics">
-        <span class="project-metric">Permit-free design</span>
-        <span class="project-metric">Spatial optimization</span>
-        <span class="project-metric">Multi-use layout</span>
-      </div>
     </div>
   </div>
 
@@ -118,41 +99,40 @@ header:
     </div>
 
     <div class="project-image">
-      <img src="{{ '/assets/images/sauna/outside.png' | relative_url }}"
-           alt="3D SolidWorks model of sauna structure">
+      <img src="{{ '/assets/images/sauna/Sauna Drawing.pdf' | relative_url }}"
+           alt="2D layout of sauna structure">
     </div>
   </div>
 
   <!-- Row 5: Engineering Details -->
   <div class="project-row">
     <div class="project-image">
-      <img src="{{ '/assets/images/sauna/towel.png' | relative_url }}"
+      <img src="{{ '/assets/images/sauna/outside.png' | relative_url }}"
            alt="Sloped roof construction detail">
     </div>
 
     <div class="project-text">
       <h3>Engineering Details</h3>
       <p>
-        A single-slope roof was designed, ranging from 7 feet on the sauna end to
-        9 feet on the change-room end. This geometry reduced internal volume to
-        improve heating efficiency while maintaining visual continuity with the
-        surrounding structures.
+        A single-slope roof was designed, ranging from a height of 7 feet on the 
+        sauna end to a height of 9 feet on the change-room end. This geometry 
+        reduced the internal volume to improve the heating efficiency while 
+        maintaining visual continuity with the surrounding structures.
       </p>
       <p>
         Excel-based calculations were used to compare internal volumes, heating
         efficiency tradeoffs, and dimensional variations during the design phase.
       </p>
-
-      <div class="project-metrics">
-        <span class="project-metric">Volume optimization</span>
-        <span class="project-metric">Thermal trade studies</span>
-        <span class="project-metric">Excel-based analysis</span>
-      </div>
     </div>
   </div>
 
   <!-- Row 6: Outcome (text-focused) -->
   <div class="project-row reverse">
+    <div class="project-image">
+      <img src="{{ '/assets/images/sauna/towel.png' | relative_url }}"
+           alt="Sloped roof construction detail">
+    </div>
+
     <div class="project-text">
       <h3>Outcome</h3>
       <p>
