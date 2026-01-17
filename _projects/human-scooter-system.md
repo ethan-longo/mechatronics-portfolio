@@ -38,37 +38,44 @@ header:
 
   <!-- Row 2: Role (reversed) -->
   <div class="project-row reverse">
+    <div class="project-image">
+      <img src="{{ '/assets/images/scooter/Simulink.png' | relative_url }}" alt="3D SimulationX scooter model">
+    </div>
+
     <div class="project-text">
       <h3>My Role</h3>
       <ul>
         <li>Derived equations of motion and linearized the system model</li>
         <li>Developed Simulink and SimulationX models for stability analysis</li>
-        <li>Designed and parameterized 3D transporter and rider models</li>
-        <li>Ran experiments varying thrust force and initial angles</li>
+        <li>Designed and parameterized 3D models of the transporter and user</li>
+        <li>Conducted experiments with varying thrust force and initial tilt angles</li>
         <li>Contributed to analysis, results interpretation, and reporting</li>
       </ul>
-    </div>
-
-    <div class="project-image">
-      <img src="{{ '/assets/images/scooter/diagram.png' | relative_url }}" alt="3D SimulationX scooter model">
     </div>
   </div>
 
   <!-- Row 3: Technical Focus -->
   <div class="project-row">
+    <div class="project-image">
+      <img src="{{ '/assets/images/scooter/Logic.png' | relative_url }}" alt="SimulationX scooter logic">
+    </div>
+
     <div class="project-text">
       <h3>Technical Focus</h3>
       <ul>
         <li><strong>System Dynamics:</strong> Nonlinear and linearized equations of motion</li>
         <li><strong>Modelling:</strong> State-variable models in MATLAB/Simulink</li>
         <li><strong>3D Simulation:</strong> Physics-based SimulationX environment</li>
-        <li><strong>Optimization:</strong> Tuned thrust and angle parameters</li>
+        <li><strong>Optimization:</strong> Tuned thrust force and tilt angle parameters</li>
       </ul>
     </div>
   </div>
 
   <!-- Row 4: Outcome (reversed) -->
   <div class="project-row reverse">
+    <div class="project-image">
+      <img src="{{ '/assets/images/scooter/Graph.png' | relative_url }}" alt="MATLAB scooter graph">
+    </div>
     <div class="project-text">
       <h3>Outcome</h3>
       <p>
