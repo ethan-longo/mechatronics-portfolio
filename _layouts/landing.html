@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<!-- ===============================
+     HERO SECTION
+     =============================== -->
+<header class="landing-hero text-center">
+  {% if page.hero_image %}
+    <img src="{{ page.hero_image | relative_url }}" 
+         alt="{{ site.author.name }}" class="hero-image">
+  {% endif %}
+
+  <h1 class="landing-title">{{ page.title }}</h1>
+
+  {% if page.subtitle %}
+    <p class="landing-subtitle">{{ page.subtitle }}</p>
+  {% endif %}
+</header>
+
+<!-- ===============================
+     FEATURED PROJECTS GRID
+     =============================== -->
+<section class="featured-projects">
+  <div class="projects-grid">
+    {% assign featured_projects = site.projects | slice: 0,6 %}
+    {% for project in featured_projects %}
+      <a href="{{ project.url | relative_url }}" class="project-card">
+        {% if project.header.overlay_image %}
+          <div class="project-image" style="background-image: url('{{ project.header.overlay_image | relative_url }}')"></div>
+        {% else %}
+          <div class="project-image" style="background-color: #f5f5f7;"></div>
+        {% endif %}
+        <div class="project-info">
+          <h3>{{ project.title }}</h3>
+          {% if project.excerpt %}
+            <p>{{ project.excerpt }}</p>
+          {% endif %}
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</section>
