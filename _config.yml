@@ -203,8 +203,6 @@ footer:
 
 # Top navigation
 nav:
-  - title: Home
-    url: /
   - title: Projects
     url: /projects/
     subnav:   # this creates the dropdown
@@ -214,19 +212,6 @@ nav:
         url: /projects/beam-balancer/
       - title: Human Scooter System
         url: /projects/human-scooter-system/
-      # Top navigation
-nav:
-  - title: Home
-    url: /
-  - title: Projects
-    url: /projects/
-    subnav:   # this creates the dropdown
-      - title: Beam Balancer
-        url: /projects/beam-balancer/
-      - title: Another Project
-        url: /projects/another-project/
-      - title: Third Project
-        url: /projects/third-project/
       - title: Tennis Training Robot
         url: /projects/tennist-training-robot/
 
