@@ -3,128 +3,171 @@
 
 @import "minimal-mistakes";
 
-/* =========================
-   Project Flow Layout
-   ========================= */
+/* ===============================
+   Project Case Study Layout
+   Mechatronics Portfolio Styling
+   =============================== */
 
 .project-flow {
-  max-width: 1400px;
-  margin: 4rem auto;
-  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem;
 }
 
-/* =========================
-   Rows
-   ========================= */
+/* ---------- Core Row Layout ---------- */
 
 .project-row {
   display: grid;
-  grid-template-columns: 1.4fr 1.1fr;
-  gap: 3.5rem;
+  grid-template-columns: minmax(420px, 1fr) minmax(420px, 1fr);
+  gap: 4rem;
   align-items: center;
-  margin-bottom: 5rem;
-  position: relative;
+  margin-bottom: 6.5rem;
 }
 
-/* subtle section marker */
-.project-row::before {
-  content: "";
-  position: absolute;
-  top: -2rem;
-  left: 0;
-  width: 40px;
-  height: 2px;
-  background: #d0d0d0;
-}
-
-/* Reverse rows */
+/* Reverse visual order */
 .project-row.reverse {
-  grid-template-columns: 1.1fr 1.4fr;
+  direction: rtl;
 }
 
-/* =========================
-   Text Column
-   ========================= */
-
-.project-text {
-  background: none;
-  padding: 0;
-  border-left: 3px solid #e5e5e5;
-  padding-left: 2rem;
-  max-width: 520px;
+.project-row.reverse > * {
+  direction: ltr;
 }
 
-.project-row.reverse .project-text {
-  border-left: none;
-  border-right: 3px solid #e5e5e5;
-  padding-left: 0;
-  padding-right: 2rem;
-  justify-self: end;
-}
-
-/* Typography */
-.project-text h3 {
-  margin-top: 0;
-  margin-bottom: 0.75rem;
-  font-size: 1.35rem;
-  letter-spacing: 0.01em;
-}
-
-.project-text p {
-  font-size: 0.98rem;
-  line-height: 1.65;
-  color: #333;
-  margin-bottom: 0.75rem;
-}
-
-.project-text ul {
-  margin-top: 0.5rem;
-  padding-left: 1.2rem;
-}
-
-.project-text li {
-  margin-bottom: 0.4rem;
-  font-size: 0.95rem;
-  line-height: 1.6;
-}
-
-/* =========================
-   Media Column
-   ========================= */
+/* ---------- Image Container ---------- */
 
 .project-image {
-  padding: 0;
+  min-width: 420px;
+  min-height: 260px;
+  background-color: #f5f5f7;
+  border-radius: 14px;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.06);
 }
 
+/* Image & Video */
 .project-image img,
 .project-image video {
   width: 100%;
   height: auto;
-  border-radius: 6px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  object-fit: cover;
   display: block;
 }
 
-/* =========================
-   Responsive
-   ========================= */
+/* Optional caption under image */
+.project-image::after {
+  content: attr(data-caption);
+  display: block;
+  font-size: 0.85rem;
+  color: #6e6e73;
+  margin-top: 0.75rem;
+  text-align: center;
+}
+
+/* ---------- Text Block ---------- */
+
+.project-text {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #1d1d1f;
+}
+
+.project-text h3 {
+  font-size: 1.65rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.project-text p {
+  margin-bottom: 1.1rem;
+}
+
+.project-text ul {
+  padding-left: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.project-text li {
+  margin-bottom: 0.65rem;
+}
+
+/* ---------- Metrics / Highlights ---------- */
+
+.project-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+.project-metric {
+  background: #f5f5f7;
+  padding: 0.6rem 0.9rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: #1d1d1f;
+  font-weight: 500;
+}
+
+/* ---------- Text-Only Rows ---------- */
+/* Rows without images become editorial */
+
+.project-row:not(:has(.project-image)) {
+  grid-template-columns: 1fr;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------- Section Divider ---------- */
+
+.project-row::after {
+  content: "";
+  grid-column: 1 / -1;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    #d2d2d7,
+    transparent
+  );
+  margin-top: 4rem;
+}
+
+/* Remove divider from last row */
+.project-row:last-child::after {
+  display: none;
+}
+
+/* ---------- Responsive ---------- */
 
 @media (max-width: 900px) {
-  .project-row,
-  .project-row.reverse {
+  .project-row {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 2.5rem;
   }
 
-  .project-text {
-    border-left: none;
-    border-right: none;
-    padding-left: 0;
-    padding-right: 0;
-    max-width: 100%;
+  .project-image {
+    min-width: 100%;
   }
 
-  .project-row::before {
-    display: none;
+  .project-flow {
+    padding: 2.5rem 1.2rem;
   }
+}
+
+/* ---------- Subtle Transitions ---------- */
+
+.project-image,
+.project-text {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.project-row:hover .project-image {
+  transform: translateY(-4px);
 }
