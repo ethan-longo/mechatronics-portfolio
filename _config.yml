@@ -194,3 +194,8 @@ nav: []   # empty nav, no headers
 projects_list_layout: grid
 
 
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-LinkedIn"
+      url: "https://www.linkedin.com/in/ethanlongo"
