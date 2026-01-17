@@ -104,6 +104,19 @@ header:
         achieve fast convergence to the beam center. Iterative testing refined
         both mechanical alignment and control performance.
       </p>
+    </div>
+  </div>
+
+
+  <!-- Row 3: Engineering Process + Outcome -->
+  <div class="project-row">
+    <div class="project-image">
+      <img src="{{ '/assets/images/beam_balancer/photo.png' | relative_url }}"
+           alt="Control and vision diagram">
+    </div>
+
+    <div class="project-text">
+      <h3>Outcome & Skills</h3>
 
       <p><strong>Outcome:</strong> Stable real-time ball balancing achieved
         within strict size, actuation, and manufacturing constraints.</p>
@@ -114,5 +127,4 @@ header:
       </p>
     </div>
   </div>
-
 </div>
