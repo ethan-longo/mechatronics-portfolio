@@ -35,6 +35,10 @@ header:
 
   <!-- Row 2: Role (reversed) -->
   <div class="project-row reverse">
+    <div class="project-image">
+      <img src="{{ '/assets/images/sauna/building.png' | relative_url }}"
+           alt="Sauna interior with cedar walls">
+    </div>
     <div class="project-text">
       <h3>My Role</h3>
       <p>
@@ -46,11 +50,6 @@ header:
         Key considerations included balancing thermal efficiency, structural
         integrity, and visual integration with the surrounding architecture.
       </p>
-    </div>
-
-    <div class="project-image">
-      <img src="{{ '/assets/images/sauna/building.png' | relative_url }}"
-           alt="Sauna interior with cedar walls">
     </div>
   </div>
 
