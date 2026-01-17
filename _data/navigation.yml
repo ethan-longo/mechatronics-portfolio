@@ -1,5 +1,6 @@
 main:
   - title: Projects
+    url: /projects/
     subnav:
       - title: Backyard Sauna
         url: /projects/backyard-sauna/
