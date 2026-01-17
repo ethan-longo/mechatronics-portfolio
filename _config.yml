@@ -201,19 +201,4 @@ footer:
       url: "https://www.linkedin.com/in/ethanlongo"
 
 
-# Top navigation
-nav:
-  - title: Projects
-    url: /projects/
-    subnav:   # this creates the dropdown
-      - title: Backyard Sauna
-        url: /projects/backyard-sauna/
-      - title: Beam Balancer
-        url: /projects/beam-balancer/
-      - title: Human Scooter System
-        url: /projects/human-scooter-system/
-      - title: Tennis Training Robot
-        url: /projects/tennist-training-robot/
-
-
 

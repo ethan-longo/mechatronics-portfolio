@@ -1,11 +1,12 @@
-# main:
-#   - title: "Posts"
-#     url: /posts/
-#   - title: "Categories"
-#     url: /categories/
-#   - title: "Tags"
-#     url: /tags/
-#   - title: "About"
-#     url: /about/
-
-main: []
+main:
+  - title: Projects
+    url: /projects/
+    subnav:
+      - title: Backyard Sauna
+        url: /projects/backyard-sauna/
+      - title: Beam Balancer
+        url: /projects/beam-balancer/
+      - title: Human Scooter System
+        url: /projects/human-scooter-system/
+      - title: Tennis Training Robot
+        url: /projects/tennist-training-robot/
