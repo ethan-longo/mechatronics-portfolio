@@ -1,3 +1,11 @@
+---
+layout: landing
+title: "Hi, I’m Ethan"
+subtitle: "I design mechatronics projects combining mechanical design, electronics, and software."
+hero_image: "/assets/images/hero.jpg"
+permalink: /
+---
+
 <!-- ---
 layout: collection
 collection: projects
@@ -9,11 +17,3 @@ permalink: /
 
 This portfolio showcases my mechatronics projects, combining mechanical design, electronics, and software. -->
 
-
----
-layout: landing
-title: "Hi, I’m Ethan"
-subtitle: "I design mechatronics projects combining mechanical design, electronics, and software."
-hero_image: "/assets/images/hero.jpg"
-permalink: /
----
