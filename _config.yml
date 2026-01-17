@@ -197,5 +197,5 @@ projects_list_layout: grid
 footer:
   links:
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ethanlongo"
