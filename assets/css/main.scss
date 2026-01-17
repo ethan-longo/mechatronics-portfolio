@@ -409,17 +409,6 @@
   transition: opacity 0.3s ease;
 }
 
-.project-card:hover .project-overlay {
-  opacity: 1;
-}
-
-.project-overlay h3 {
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-align: center;
-  padding: 0 0.5rem;
-}
 
 /* Project info (optional excerpt below) */
 .project-card .project-info {
