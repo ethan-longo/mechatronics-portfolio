@@ -3,36 +3,424 @@
 
 @import "minimal-mistakes";
 
-/* ===============================
-   Landing Page Title
-   =============================== */
+// /* ===============================
+//    Landing Page Title
+//    =============================== */
 
-.page-title-header {
-  padding: 8rem 1.5rem 4rem;   /* top/bottom spacing */
-  text-align: center;
-  background-color: #fafafa;    /* subtle neutral background */
-}
+// .page-title-header {
+//   padding: 8rem 1.5rem 4rem;   /* top/bottom spacing */
+//   text-align: center;
+//   background-color: #fafafa;    /* subtle neutral background */
+// }
 
-.page-title {
-  font-size: clamp(3rem, 8vw, 5rem); /* large, responsive */
-  font-weight: 700;
-  color: #111111;
-  margin-bottom: 0.5rem;
-  line-height: 1.1;
-}
+// .page-title {
+//   font-size: clamp(3rem, 8vw, 5rem); /* large, responsive */
+//   font-weight: 700;
+//   color: #111111;
+//   margin-bottom: 0.5rem;
+//   line-height: 1.1;
+// }
 
-.page-subtitle {
-  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
-  font-weight: 400;
-  color: #555555;
-  margin-top: 0;
-}
+// .page-subtitle {
+//   font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+//   font-weight: 400;
+//   color: #555555;
+//   margin-top: 0;
+// }
+
+// /* ===============================
+//    LANDING PAGE HERO
+//    =============================== */
+// .landing-hero {
+//   padding: 10rem 1.5rem 6rem; /* slightly less top padding for balance */
+//   text-align: center;
+//   background-color: #fafafa;
+//   opacity: 0;
+//   transform: translateY(20px);
+//   animation: fadeInUp 0.8s forwards;
+//   animation-delay: 0.2s;
+// }
+
+// .hero-image {
+//   width: 220px;              /* larger hero portrait */
+//   height: 220px;
+//   border-radius: 50%;
+//   object-fit: cover;
+//   margin-bottom: 2.5rem;
+//   border: 3px solid #111;
+// }
+
+// .landing-title {
+//   font-size: clamp(4rem, 9vw, 6rem); /* slightly smaller than before */
+//   font-weight: 700;
+//   margin-bottom: 1rem;
+//   letter-spacing: 2px;
+// }
+
+// .landing-subtitle {
+//   font-size: clamp(1.5rem, 3vw, 2rem);
+//   font-weight: 400;
+//   color: #555;
+//   margin-top: 2rem;
+//   letter-spacing: 1px;
+//   line-height: 1.3;
+// }
+
+
+
+// /* ===============================
+//    Project Case Study Layout
+//    Mechatronics Portfolio Styling
+//    =============================== */
+
+// .project-flow {
+//   max-width: 1200px;
+//   margin: 0 auto;
+//   padding: 3.5rem 1.5rem;
+// }
+
+// /* ---------- Core Row Layout ---------- */
+
+// .project-row {
+//   display: grid;
+//   grid-template-columns: minmax(420px, 1fr) minmax(420px, 1fr);
+//   gap: 4rem;
+//   align-items: center;
+//   margin-bottom: 6.5rem;
+// }
+
+// /* Reverse visual order */
+// .project-row.reverse {
+//   direction: rtl;
+// }
+
+// .project-row.reverse > * {
+//   direction: ltr;
+// }
+
+// /* ---------- Image Container ---------- */
+
+// .project-image {
+//   min-width: 420px;
+//   min-height: 260px;
+//   background-color: #f5f5f7;
+//   border-radius: 14px;
+//   overflow: hidden;
+
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+
+//   box-shadow:
+//     0 10px 30px rgba(0, 0, 0, 0.06);
+// }
+
+// /* Image & Video */
+// .project-image img,
+// .project-image video {
+//   width: 100%;
+//   height: auto;
+//   object-fit: cover;
+//   display: block;
+// }
+
+// /* Optional caption under image */
+// .project-image::after {
+//   content: attr(data-caption);
+//   display: block;
+//   font-size: 0.85rem;
+//   color: #6e6e73;
+//   margin-top: 0.75rem;
+//   text-align: center;
+// }
+
+// /* ---------- Text Block ---------- */
+
+// .project-text {
+//   font-size: 1.05rem;
+//   line-height: 1.65;
+//   color: #1d1d1f;
+// }
+
+// .project-text h3 {
+//   font-size: 1.65rem;
+//   font-weight: 600;
+//   margin-bottom: 1rem;
+// }
+
+// .project-text p {
+//   margin-bottom: 1.1rem;
+// }
+
+// .project-text ul {
+//   padding-left: 1.25rem;
+//   margin-top: 0.5rem;
+// }
+
+// .project-text li {
+//   margin-bottom: 0.65rem;
+// }
+
+// /* ---------- Metrics / Highlights ---------- */
+
+// .project-metrics {
+//   display: flex;
+//   flex-wrap: wrap;
+//   gap: 1.2rem;
+//   margin-top: 1.2rem;
+// }
+
+// .project-metric {
+//   background: #f5f5f7;
+//   padding: 0.6rem 0.9rem;
+//   border-radius: 8px;
+//   font-size: 0.9rem;
+//   color: #1d1d1f;
+//   font-weight: 500;
+// }
+
+// /* ---------- Text-Only Rows ---------- */
+// /* Rows without images become editorial */
+
+// .project-row:not(:has(.project-image)) {
+//   grid-template-columns: 1fr;
+//   max-width: 900px;
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+
+// /* ---------- Section Divider ---------- */
+
+// .project-row::after {
+//   content: "";
+//   grid-column: 1 / -1;
+//   height: 1px;
+//   background: linear-gradient(
+//     to right,
+//     transparent,
+//     #d2d2d7,
+//     transparent
+//   );
+//   margin-top: 4rem;
+// }
+
+// /* Remove divider from last row */
+// .project-row:last-child::after {
+//   display: none;
+// }
+
+// /* ---------- Responsive ---------- */
+
+// @media (max-width: 900px) {
+//   .project-row {
+//     grid-template-columns: 1fr;
+//     gap: 2.5rem;
+//   }
+
+//   .project-image {
+//     min-width: 100%;
+//   }
+
+//   .project-flow {
+//     padding: 2.5rem 1.2rem;
+//   }
+// }
+
+// /* ---------- Subtle Transitions ---------- */
+
+// .project-image,
+// .project-text {
+//   transition: transform 0.3s ease, opacity 0.3s ease;
+// }
+
+// .project-row:hover .project-image {
+//   transform: translateY(-4px);
+// }
+
+
+// /* ===============================
+//    LANDING PAGE HERO
+//    =============================== */
+// .landing-hero {
+//   padding: 12rem 1.5rem 6rem; /* lots of space */
+//   text-align: center;
+//   background-color: #fafafa;
+//   opacity: 0;
+//   transform: translateY(20px);
+//   animation: fadeInUp 0.8s forwards;
+//   animation-delay: 0.2s;
+// }
+
+// .hero-image {
+//   width: 160px;
+//   height: 160px;
+//   border-radius: 50%;
+//   object-fit: cover;
+//   margin-bottom: 2rem;
+//   border: 3px solid #111;
+// }
+
+// .landing-title {
+//   font-size: clamp(5rem, 12vw, 8rem);
+//   font-weight: 700;
+//   margin-bottom: 1rem;
+//   letter-spacing: 2px;
+// }
+
+// .landing-subtitle {
+//   font-size: clamp(1.5rem, 3vw, 2rem);
+//   font-weight: 400;
+//   color: #555;
+//   margin-top: 2rem;
+//   letter-spacing: 1px;
+//   line-height: 1.3;
+// }
+
+// // /* ===============================
+// //    FEATURED PROJECTS GRID
+// //    =============================== */
+// // .featured-projects {
+// //   max-width: 1200px;
+// //   margin: 0 auto 6rem;
+// //   padding: 0 1.5rem;
+// // }
+
+// // .projects-grid {
+// //   display: grid;
+// //   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+// //   gap: 2.5rem;
+// // }
+
+// // .project-card {
+// //   display: block;
+// //   border-radius: 12px;
+// //   overflow: hidden;
+// //   text-decoration: none;
+// //   color: inherit;
+// //   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+// //   transition: transform 0.3s ease, box-shadow 0.3s ease;
+// //   opacity: 0;
+// //   transform: translateY(20px);
+// //   animation: fadeInUp 0.8s forwards;
+// // }
+
+// // .project-card:hover {
+// //   transform: translateY(-5px);
+// //   box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+// // }
+
+// // .project-card .project-image {
+// //   width: 100%;
+// //   height: 180px;
+// //   background-size: cover;
+// //   background-position: center;
+// // }
+
+// // .project-card .project-info {
+// //   padding: 1rem;
+// // }
+
+// // .project-card h3 {
+// //   font-size: 1.3rem;
+// //   margin-bottom: 0.5rem;
+// // }
+
+// // .project-card p {
+// //   font-size: 0.95rem;
+// //   color: #555;
+// //   line-height: 1.4;
+// // }
+
+// // /* ===============================
+// //    FADE-IN ANIMATION
+// //    =============================== */
+// // @keyframes fadeInUp {
+// //   to {
+// //     opacity: 1;
+// //     transform: translateY(0);
+// //   }
+// // }
+
+// // /* Staggered animation delays for project cards */
+// // .projects-grid .project-card:nth-child(1) { animation-delay: 0.35s; }
+// // .projects-grid .project-card:nth-child(2) { animation-delay: 0.4s; }
+// // .projects-grid .project-card:nth-child(3) { animation-delay: 0.45s; }
+// // .projects-grid .project-card:nth-child(4) { animation-delay: 0.5s; }
+// // .projects-grid .project-card:nth-child(5) { animation-delay: 0.55s; }
+// // .projects-grid .project-card:nth-child(6) { animation-delay: 0.6s; }
+
+// /* ===============================
+//    FEATURED PROJECTS GRID
+//    =============================== */
+// .featured-projects {
+//   max-width: 1200px;
+//   margin: 0 auto 6rem;
+//   padding: 0 1.5rem;
+// }
+
+// .projects-grid {
+//   display: grid;
+//   /* Force single row if 4 projects or fewer */
+//   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+//   justify-content: center; /* center if fewer cards */
+//   gap: 2.5rem;
+// }
+
+// .project-card {
+//   position: relative;
+//   display: block;
+//   border-radius: 12px;
+//   overflow: hidden;
+//   text-decoration: none;
+//   color: inherit;
+//   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+//   transition: transform 0.3s ease, box-shadow 0.3s ease;
+//   opacity: 0;
+//   transform: translateY(20px);
+//   animation: fadeInUp 0.8s forwards;
+// }
+
+// .project-card:hover {
+//   transform: translateY(-5px);
+//   box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+// }
+
+// /* Project image */
+// .project-card .project-image {
+//   width: 100%;
+//   height: 180px;
+//   background-size: cover;
+//   background-position: center;
+//   transition: transform 0.3s ease;
+// }
+
+// /* Hover overlay */
+// .project-card .project-overlay {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   background-color: rgba(17, 17, 17, 0.5);
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   opacity: 0;
+//   transition: opacity 0.3s ease;
+// }
+
+
+// /* Project info (optional excerpt below) */
+// .project-card .project-info {
+//   padding: 1rem;
+// }
+
 
 /* ===============================
    LANDING PAGE HERO
    =============================== */
 .landing-hero {
-  padding: 10rem 1.5rem 6rem; /* slightly less top padding for balance */
+  padding: 10rem 1.5rem 6rem; /* top/bottom spacing */
   text-align: center;
   background-color: #fafafa;
   opacity: 0;
@@ -66,289 +454,6 @@
   line-height: 1.3;
 }
 
-
-
-/* ===============================
-   Project Case Study Layout
-   Mechatronics Portfolio Styling
-   =============================== */
-
-.project-flow {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 3.5rem 1.5rem;
-}
-
-/* ---------- Core Row Layout ---------- */
-
-.project-row {
-  display: grid;
-  grid-template-columns: minmax(420px, 1fr) minmax(420px, 1fr);
-  gap: 4rem;
-  align-items: center;
-  margin-bottom: 6.5rem;
-}
-
-/* Reverse visual order */
-.project-row.reverse {
-  direction: rtl;
-}
-
-.project-row.reverse > * {
-  direction: ltr;
-}
-
-/* ---------- Image Container ---------- */
-
-.project-image {
-  min-width: 420px;
-  min-height: 260px;
-  background-color: #f5f5f7;
-  border-radius: 14px;
-  overflow: hidden;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  box-shadow:
-    0 10px 30px rgba(0, 0, 0, 0.06);
-}
-
-/* Image & Video */
-.project-image img,
-.project-image video {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  display: block;
-}
-
-/* Optional caption under image */
-.project-image::after {
-  content: attr(data-caption);
-  display: block;
-  font-size: 0.85rem;
-  color: #6e6e73;
-  margin-top: 0.75rem;
-  text-align: center;
-}
-
-/* ---------- Text Block ---------- */
-
-.project-text {
-  font-size: 1.05rem;
-  line-height: 1.65;
-  color: #1d1d1f;
-}
-
-.project-text h3 {
-  font-size: 1.65rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-}
-
-.project-text p {
-  margin-bottom: 1.1rem;
-}
-
-.project-text ul {
-  padding-left: 1.25rem;
-  margin-top: 0.5rem;
-}
-
-.project-text li {
-  margin-bottom: 0.65rem;
-}
-
-/* ---------- Metrics / Highlights ---------- */
-
-.project-metrics {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.2rem;
-  margin-top: 1.2rem;
-}
-
-.project-metric {
-  background: #f5f5f7;
-  padding: 0.6rem 0.9rem;
-  border-radius: 8px;
-  font-size: 0.9rem;
-  color: #1d1d1f;
-  font-weight: 500;
-}
-
-/* ---------- Text-Only Rows ---------- */
-/* Rows without images become editorial */
-
-.project-row:not(:has(.project-image)) {
-  grid-template-columns: 1fr;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* ---------- Section Divider ---------- */
-
-.project-row::after {
-  content: "";
-  grid-column: 1 / -1;
-  height: 1px;
-  background: linear-gradient(
-    to right,
-    transparent,
-    #d2d2d7,
-    transparent
-  );
-  margin-top: 4rem;
-}
-
-/* Remove divider from last row */
-.project-row:last-child::after {
-  display: none;
-}
-
-/* ---------- Responsive ---------- */
-
-@media (max-width: 900px) {
-  .project-row {
-    grid-template-columns: 1fr;
-    gap: 2.5rem;
-  }
-
-  .project-image {
-    min-width: 100%;
-  }
-
-  .project-flow {
-    padding: 2.5rem 1.2rem;
-  }
-}
-
-/* ---------- Subtle Transitions ---------- */
-
-.project-image,
-.project-text {
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.project-row:hover .project-image {
-  transform: translateY(-4px);
-}
-
-
-/* ===============================
-   LANDING PAGE HERO
-   =============================== */
-.landing-hero {
-  padding: 12rem 1.5rem 6rem; /* lots of space */
-  text-align: center;
-  background-color: #fafafa;
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 0.8s forwards;
-  animation-delay: 0.2s;
-}
-
-.hero-image {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 2rem;
-  border: 3px solid #111;
-}
-
-.landing-title {
-  font-size: clamp(5rem, 12vw, 8rem);
-  font-weight: 700;
-  margin-bottom: 1rem;
-  letter-spacing: 2px;
-}
-
-.landing-subtitle {
-  font-size: clamp(1.5rem, 3vw, 2rem);
-  font-weight: 400;
-  color: #555;
-  margin-top: 2rem;
-  letter-spacing: 1px;
-  line-height: 1.3;
-}
-
-// /* ===============================
-//    FEATURED PROJECTS GRID
-//    =============================== */
-// .featured-projects {
-//   max-width: 1200px;
-//   margin: 0 auto 6rem;
-//   padding: 0 1.5rem;
-// }
-
-// .projects-grid {
-//   display: grid;
-//   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-//   gap: 2.5rem;
-// }
-
-// .project-card {
-//   display: block;
-//   border-radius: 12px;
-//   overflow: hidden;
-//   text-decoration: none;
-//   color: inherit;
-//   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-//   transition: transform 0.3s ease, box-shadow 0.3s ease;
-//   opacity: 0;
-//   transform: translateY(20px);
-//   animation: fadeInUp 0.8s forwards;
-// }
-
-// .project-card:hover {
-//   transform: translateY(-5px);
-//   box-shadow: 0 15px 35px rgba(0,0,0,0.12);
-// }
-
-// .project-card .project-image {
-//   width: 100%;
-//   height: 180px;
-//   background-size: cover;
-//   background-position: center;
-// }
-
-// .project-card .project-info {
-//   padding: 1rem;
-// }
-
-// .project-card h3 {
-//   font-size: 1.3rem;
-//   margin-bottom: 0.5rem;
-// }
-
-// .project-card p {
-//   font-size: 0.95rem;
-//   color: #555;
-//   line-height: 1.4;
-// }
-
-// /* ===============================
-//    FADE-IN ANIMATION
-//    =============================== */
-// @keyframes fadeInUp {
-//   to {
-//     opacity: 1;
-//     transform: translateY(0);
-//   }
-// }
-
-// /* Staggered animation delays for project cards */
-// .projects-grid .project-card:nth-child(1) { animation-delay: 0.35s; }
-// .projects-grid .project-card:nth-child(2) { animation-delay: 0.4s; }
-// .projects-grid .project-card:nth-child(3) { animation-delay: 0.45s; }
-// .projects-grid .project-card:nth-child(4) { animation-delay: 0.5s; }
-// .projects-grid .project-card:nth-child(5) { animation-delay: 0.55s; }
-// .projects-grid .project-card:nth-child(6) { animation-delay: 0.6s; }
-
 /* ===============================
    FEATURED PROJECTS GRID
    =============================== */
@@ -360,14 +465,12 @@
 
 .projects-grid {
   display: grid;
-  /* Force single row if 4 projects or fewer */
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  justify-content: center; /* center if fewer cards */
+  justify-content: center; /* centers fewer projects */
   gap: 2.5rem;
 }
 
 .project-card {
-  position: relative;
   display: block;
   border-radius: 12px;
   overflow: hidden;
@@ -385,32 +488,61 @@
   box-shadow: 0 15px 35px rgba(0,0,0,0.12);
 }
 
-/* Project image */
 .project-card .project-image {
   width: 100%;
   height: 180px;
   background-size: cover;
   background-position: center;
-  transition: transform 0.3s ease;
 }
 
-/* Hover overlay */
-.project-card .project-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(17, 17, 17, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-
-/* Project info (optional excerpt below) */
 .project-card .project-info {
   padding: 1rem;
+}
+
+.project-card .project-info h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-card .project-info p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* ===============================
+   FADE-IN ANIMATION
+   =============================== */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Staggered animation delays for project cards */
+.projects-grid .project-card:nth-child(1) { animation-delay: 0.35s; }
+.projects-grid .project-card:nth-child(2) { animation-delay: 0.4s; }
+.projects-grid .project-card:nth-child(3) { animation-delay: 0.45s; }
+.projects-grid .project-card:nth-child(4) { animation-delay: 0.5s; }
+.projects-grid .project-card:nth-child(5) { animation-delay: 0.55s; }
+.projects-grid .project-card:nth-child(6) { animation-delay: 0.6s; }
+
+/* ===============================
+   RESPONSIVE
+   =============================== */
+@media (max-width: 900px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  .landing-hero {
+    padding: 8rem 1rem 4rem;
+  }
+  .hero-image {
+    width: 180px;
+    height: 180px;
+  }
+  .landing-title {
+    font-size: clamp(3rem, 8vw, 5rem);
+  }
 }
