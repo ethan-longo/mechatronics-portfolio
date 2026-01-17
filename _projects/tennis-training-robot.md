@@ -1,28 +1,114 @@
 ---
 title: Tennis Training Robot
 excerpt: Autonomous robot for randomized tennis ball training sessions
+layout: project
+header:
+  overlay_image: /assets/images/background.png
+  overlay_filter: 0.4
 ---
 
-## Overview
-Designed and built a prototype robot as a low-cost alternative to
-traditional tennis ball machines. The robot collects balls, navigates
-the court, and launches balls at randomized angles and heights.
+<div class="project-flow">
 
-## Tools
-- LEGO EV3 Mindstorms
-- RobotC
-- Mechanical prototyping
-- Sensors (colour sensor, gyro)
+  <!-- Row 1: Overview -->
+  <div class="project-row">
+    <div class="project-image">
+      <img src="{{ '/assets/images/tennis_robot/image.png' | relative_url }}"
+           alt="Tennis training robot prototype">
+    </div>
 
-## What I Did
-- Co-designed and assembled intake, launcher, and drivetrain systems
-- Programmed ball intake, navigation, and shooting logic
-- Implemented randomized shooting angles and heights
-- Integrated sensors for ball detection and precise rotation
-- Troubleshot mechanical issues such as drift and conveyor jamming
-- Contributed to testing, iteration, and project planning
+    <div class="project-text">
+      <h3>Tennis Training Robot</h3>
+      <p>
+        This project involved the design and construction of a mobile robotic
+        system intended as a low-cost alternative to commercial tennis ball
+        machines and private coaching sessions.
+      </p>
+      <p>
+        The robot autonomously collects Tetrix balls, navigates to a predefined
+        court position, and launches balls at randomized angles to support
+        customizable user training sessions.
+      </p>
 
-## Outcome
-Produced a functional prototype capable of automated, multi-round
-training sessions. Demonstrated strong potential as a customizable,
-affordable tennis training aid despite partial autonomy limitations.
+      <div class="project-metrics">
+        <span class="project-metric">Dual flywheel launcher</span>
+        <span class="project-metric">1300 rpm gearbox</span>
+        <span class="project-metric">Randomized shot angles</span>
+        <span class="project-metric">Mobile navigation</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 2: Role (reversed) -->
+  <div class="project-row reverse">
+    <div class="project-text">
+      <h3>My Role</h3>
+      <ul>
+        <li>Co-designed and assembled conveyor intake, launcher, and drivetrain</li>
+        <li>Programmed RobotC functions for intake, navigation, and shooting</li>
+        <li>Implemented randomized firing logic and user-configurable rounds</li>
+        <li>Integrated colour sensor and gyro for ball detection and orientation</li>
+        <li>Contributed to troubleshooting, testing, and iteration</li>
+      </ul>
+    </div>
+
+    <div class="project-image">
+      <img src="{{ '/assets/images/tennis_robot/mechanical_system.png' | relative_url }}"
+           alt="Launcher and conveyor mechanism">
+    </div>
+  </div>
+
+  <!-- Row 3: Technical Focus -->
+  <div class="project-row">
+    <div class="project-image">
+      <img src="{{ '/assets/images/tennis_robot/photo_grid.png' | relative_url }}"
+           alt="Control and sensor integration diagram">
+    </div>
+
+    <div class="project-text">
+      <h3>Technical Focus</h3>
+      <ul>
+        <li>
+          <strong>Mechanical Design:</strong> Conveyor belt intake, dual flywheel
+          launcher with two-stage gearing, and mobile drivetrain
+        </li>
+        <li>
+          <strong>Software:</strong> Modular RobotC functions for navigation,
+          intake sequencing, and randomized shot execution
+        </li>
+        <li>
+          <strong>Sensing:</strong> Colour sensor for ball detection and gyro for
+          accurate rotational control
+        </li>
+        <li>
+          <strong>Testing & Iteration:</strong> Reduced drift and conveyor jamming
+          through drive tuning, tray redesign, and motor upgrades
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Row 4: Outcome (text-focused) -->
+  <div class="project-row reverse">
+    <div class="project-text">
+      <h3>Outcome</h3>
+      <p>
+        The final system delivered automated, multi-round tennis training with
+        randomized ball launches and user-configurable shot parameters. While
+        some constraints limited full autonomy, the prototype demonstrated strong
+        feasibility as a customizable and affordable training aid.
+      </p>
+      <p>
+        The project highlighted the importance of coordinated mechanical design,
+        sensing, and software logic in achieving reliable real-world robotic
+        behavior.
+      </p>
+
+      <p>
+        <strong>Skills & Tools:</strong>
+        LEGO EV3 Mindstorms, RobotC, mechanical prototyping, sensor integration,
+        testing and debugging, team collaboration, project planning
+      </p>
+    </div>
+  </div>
+
+</div>

@@ -3,9 +3,8 @@ title: Human Scooter System Modelling
 excerpt: Dynamic modelling and simulation of a two-wheeled transporter
 layout: project
 header:
-  overlay_image: /assets/images/beam_balancer/beam_balancer_diagram.png
+  overlay_image: /assets/images/background.png
   overlay_filter: 0.4
-  caption: "Two wheeled human model."
 ---
 
 <div class="project-flow">
