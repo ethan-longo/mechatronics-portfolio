@@ -3,7 +3,7 @@ title: Autonomous Tennis Training Robot
 excerpt: Autonomous robot for randomized tennis ball training sessions
 layout: project
 header:
-  overlay_image: /assets/images/tennis_robot/photo_grid.png
+  overlay_image: /assets/images/tennis_robot/full.png
   overlay_filter: 0.4
 ---
 
@@ -12,7 +12,7 @@ header:
   <!-- Row 1: Overview -->
   <div class="project-row">
     <div class="project-image">
-      <img src="{{ '/assets/images/tennis_robot/image.png' | relative_url }}"
+      <img src="{{ '/assets/images/tennis_robot/full.png' | relative_url }}"
            alt="Tennis training robot prototype">
     </div>
 
@@ -24,49 +24,45 @@ header:
         machines and private coaching sessions.
       </p>
       <p>
-        The robot autonomously collects Tetrix balls, navigates to a predefined
+        The robot autonomously collects Tetrix balls, navigates to a set
         court position, and launches balls at randomized angles to support
         customizable user training sessions.
       </p>
-
-      <div class="project-metrics">
-        <span class="project-metric">Dual flywheel launcher</span>
-        <span class="project-metric">1300 rpm gearbox</span>
-        <span class="project-metric">Randomized shot angles</span>
-        <span class="project-metric">Mobile navigation</span>
-      </div>
     </div>
   </div>
 
   <!-- Row 2: Role (reversed) -->
   <div class="project-row reverse">
+    <div class="project-image">
+      <img src="{{ '/assets/images/tennis_robot/Shooting flow chart.png' | relative_url }}"
+           alt="Tennis training robot flow chart">
+    </div>
+
     <div class="project-text">
       <h3>My Role</h3>
       <ul>
-        <li>Co-designed and assembled conveyor intake, launcher, and drivetrain</li>
+        <li>Co-designed and assembled mechanical systems including conveyor intake, launcher, and drivetrain</li>
         <li>Programmed RobotC functions for intake, navigation, and shooting</li>
         <li>Implemented randomized firing logic and user-configurable rounds</li>
-        <li>Integrated colour sensor and gyro for ball detection and orientation</li>
+        <li>Integrated colour and gyro sensors for ball detection and orientation</li>
         <li>Contributed to troubleshooting, testing, and iteration</li>
       </ul>
     </div>
-
-    <div class="project-image">
-      <img src="{{ '/assets/images/tennis_robot/photo_grid.png' | relative_url }}"
-           alt="Control and sensor integration diagram">
-    </div>
-
   </div>
 
   <!-- Row 3: Technical Focus -->
   <div class="project-row">
+    <div class="project-image">
+      <img src="{{ '/assets/images/tennis_robot/intake.png' | relative_url }}"
+           alt="Tennis training robot intake">
+    </div>
 
     <div class="project-text">
       <h3>Technical Focus</h3>
       <ul>
         <li>
           <strong>Mechanical Design:</strong> Conveyor belt intake, dual flywheel
-          launcher with two-stage gearing, and mobile drivetrain
+          launcher with two-stage gearing (1300+ rpm), and mobile drivetrain
         </li>
         <li>
           <strong>Software:</strong> Modular RobotC functions for navigation,
@@ -86,6 +82,11 @@ header:
 
   <!-- Row 4: Outcome (text-focused) -->
   <div class="project-row reverse">
+    <div class="project-image">
+      <img src="{{ '/assets/images/tennis_robot/final.png' | relative_url }}"
+           alt="Tennis training robot final">
+    </div>
+
     <div class="project-text">
       <h3>Outcome</h3>
       <p>
