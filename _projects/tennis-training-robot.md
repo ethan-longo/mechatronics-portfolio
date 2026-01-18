@@ -53,7 +53,7 @@ header:
   <!-- Row 3: Technical Focus -->
   <div class="project-row">
     <div class="project-image">
-      <img src="{{ '/assets/images/tennis_robot/intake.png' | relative_url }}"
+      <img src="{{ '/assets/images/tennis_robot/intake.jpg' | relative_url }}"
            alt="Tennis training robot intake">
     </div>
 
